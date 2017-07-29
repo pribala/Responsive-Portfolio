@@ -206,3 +206,61 @@ textarea {
   -o-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
+
+@media only screen and (max-width: 980px) {
+
+  #left {
+    float: left;
+    width: 256px;
+    border: 1px solid #E4E4E4;
+    background-color: #fff;
+    margin: 25px 30px 25px 80px;
+    padding: 18px;
+    color: #968A8C;
+  }  
+
+  #right {
+  float: left;
+  width: 165px;
+  margin: 25px 80px 25px 0px;
+  border: 1px solid #E4E4E4;
+  background-color: #fff;
+  padding: 20px 20px 30px 20px;
+  }
+
+  h2 {
+    margin: 0px 0px 0px 100px;
+    font-size: 20px;
+  }
+
+  #main-links {
+    margin-left: 30px;
+  }
+
+  h3 {
+    font-size: 18px; 
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  .profile-image {
+    width: 256px;
+    height: 170px;
+    padding-bottom: 20px;
+  }
+
+  .social-links {
+    padding: 15px 0px 0px 0px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  #main-container {
+    width: 691px;
+    border: 1px solid #6A737D;
+  }
+}
